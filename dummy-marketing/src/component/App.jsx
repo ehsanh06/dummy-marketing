@@ -6,7 +6,8 @@ import Features from './Features';
 import Responsive from './Responsive';
 import Founders from './Founders';
 import Showcase from './Showcase';
-import Trial from './trial';
+import Trial from './Trial';
+import Footer from './Footer';
 
 export default class App extends Component {
 
@@ -21,6 +22,7 @@ export default class App extends Component {
           <Founders />
           <Showcase />
         </main>
+        <Footer />
       </div>
     );
   }
