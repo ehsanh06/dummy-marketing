@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Design from './Design';
 import Features from './Features';
+import Responsive from './Responsive';
 
 export default class App extends Component {
 
@@ -10,8 +11,11 @@ export default class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Design />
-        <Features />
+        <main>
+          <Design />
+          <Features />
+          <Responsive />
+        </main>
       </div>
     );
   }
