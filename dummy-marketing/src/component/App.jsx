@@ -6,6 +6,7 @@ import Features from './Features';
 import Responsive from './Responsive';
 import Founders from './Founders';
 import Showcase from './Showcase';
+import Trial from './trial';
 
 export default class App extends Component {
 
