@@ -5,6 +5,7 @@ import Design from './Design';
 import Features from './Features';
 import Responsive from './Responsive';
 import Founders from './Founders';
+import Showcase from './Showcase';
 
 export default class App extends Component {
 
@@ -17,6 +18,7 @@ export default class App extends Component {
           <Features />
           <Responsive />
           <Founders />
+          <Showcase />
         </main>
       </div>
     );
