@@ -9,6 +9,8 @@ import Showcase from './Showcase';
 import Trial from './Trial';
 import Footer from './Footer';
 
+import './App.css';
+
 export default class App extends Component {
 
   render() {
