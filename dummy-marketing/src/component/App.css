@@ -235,3 +235,51 @@ section.responsive div:nth-of-type(2) {
 section.responsive div:nth-of-type(2) p {
     padding: 1em 0;
 }
+
+/* 
+    Founders
+*/
+section.founders {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background-image: url(/assets/images/section5-background.jpg);
+    background-size: cover;
+}
+
+section.founders > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section.founders > div:first-child .founders-profile {
+    text-align: center;
+    color: white;
+    padding: 4em;
+}
+
+section.founders > div:first-child .founders-profile div {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #4E4E5E;
+    border: 1px solid #33343E;
+    margin: 5% auto;
+    padding: 1em;
+}
+
+section.founders > div:first-child .founders-profile h3,
+section.founders > div:first-child .founders-profile h4,
+section.founders > div:first-child .founders-profile p.testimonial {
+    padding: 0.5em;
+}
+
+
+section.founders > div:nth-of-type(2) > ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+section.founders > div:nth-of-type(2) > ul > li {
+    width: 65%;
+    margin: 0 auto;
+}
