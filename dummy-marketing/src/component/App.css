@@ -78,6 +78,10 @@ h4 {
     color: #ec5b5b;
 }
 
+span.elipsis {
+    color: #ec5b5b;
+}
+
 /* 
     Header 
 */
@@ -131,10 +135,6 @@ section.design div.container div.text-container {
     padding: 1em;
     margin: 0 10% auto;
     width: 60%;
-}
-
-section.design span {
-    color: #ec5b5b;
 }
 
 section.design h2 {
@@ -191,4 +191,47 @@ section.features > div:nth-child(2) div {
 
 section.features > div:nth-child(2) div > p{
     line-height: 1.2;
+}
+
+/* 
+    Responsive 
+*/
+section.responsive {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    height: 400px;
+
+}
+
+section.responsive div:first-child {
+    background-image: url(/assets/images/decorationBox.png);
+    display: block;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: -110px;
+    height: auto;
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -webkit-filter: FlipH;
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+section.responsive > img {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+section.responsive div:nth-of-type(2) {
+    width: 70%;
+    margin: 0% 0% auto;
+    padding: 2em 0;
+}
+
+section.responsive div:nth-of-type(2) p {
+    padding: 1em 0;
 }
