@@ -6,12 +6,14 @@ export default class Responsive extends Component {
         return (
             <section className="responsive">
                 <div>
-                    <img src="" alt="Accent"/>
-                    <img src="" alt="Laptop"/>
+                    {/* Accent */}
                 </div>
+                
+                <img src="/assets/images/section4-macbook.png" alt="Macbook"/>
+                
                 <div>
                     <h4>New design</h4>
-                    <h3>Responsive design, just needs your tap <span class="elipsis">....</span></h3>
+                    <h2>Responsive design, just needs your tap <span class="elipsis">....</span></h2>
 
                     <p>
                         Lorem Ipsum has been the industry's standard 
