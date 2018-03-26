@@ -7,11 +7,11 @@ export default class Features extends Component {
             <section className="features">
                 <div>
                     <h4>New features</h4>
-                    <h3>Some awesome features</h3>
+                    <h2>Some awesome features</h2>
                 </div>
                 <div>
                     <div>
-                        <img src="" alt="postcard"/>
+                        <img src="/assets/images/section3-icon1.png" alt="Postcard"/>
                         <h3>Some awesome features</h3>
                         <p>
                             Lorem Ipsum has been the industry's standard 
@@ -20,7 +20,7 @@ export default class Features extends Component {
                         </p>
                     </div>
                     <div>
-                        <img src="" alt="postcard"/>
+                        <img src="/assets/images/section3-icon2.png" alt="Travel"/>
                         <h3>Some awesome features</h3>
                         <p>
                             Lorem Ipsum has been the industry's standard 
@@ -29,7 +29,7 @@ export default class Features extends Component {
                         </p>
                     </div>
                     <div>
-                        <img src="" alt="postcard"/>
+                        <img src="/assets/images/section3-icon3.png" alt="Lightbulb"/>
                         <h3>Some awesome features</h3>
                         <p>
                             Lorem Ipsum has been the industry's standard 

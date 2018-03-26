@@ -23,7 +23,7 @@ export default class Design extends Component {
                     </div>
 
                     <div id="accent-container">
-                        <img src="/assets/images/decorationBox.png" alt="Accent" />
+                    {/* Background image  */}
                     </div>
                 </div>
             </section>
