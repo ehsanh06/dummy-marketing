@@ -283,3 +283,21 @@ section.founders > div:nth-of-type(2) > ul > li {
     width: 65%;
     margin: 0 auto;
 }
+
+/* 
+    Showcase
+*/
+section.showcase > div {
+    padding: 2em 0;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+} 
+section.showcase > div p {
+    padding: 2em 0;
+}
+section.showcase > img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
