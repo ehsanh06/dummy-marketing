@@ -13,7 +13,7 @@ export default class Responsive extends Component {
                 
                 <div>
                     <h4>New design</h4>
-                    <h2>Responsive design, just needs your tap <span class="elipsis">....</span></h2>
+                    <h2>Responsive design, just needs your tap <span className="elipsis">....</span></h2>
 
                     <p>
                         Lorem Ipsum has been the industry's standard 

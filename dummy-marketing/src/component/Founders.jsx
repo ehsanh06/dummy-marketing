@@ -10,7 +10,7 @@ export default class Responsive extends Component {
                         <div className="avatar"></div>
                         <h3>Jon Doe</h3>
                         <h4>Co Founder</h4>
-                        <p class="testimonial">
+                        <p className="testimonial">
                             Lorem Ipsum has been the industry's standard 
                             dummy text ever since the 1500s, when an unknown printer
                             took a galley of type and scrambled it to make a type specimen book.
@@ -20,7 +20,7 @@ export default class Responsive extends Component {
                         <div className="avatar"></div>
                         <h3>Jon Doe</h3>
                         <h4>Co Founder</h4>
-                        <p class="testimonial">
+                        <p className="testimonial">
                             Lorem Ipsum has been the industry's standard 
                             dummy text ever since the 1500s, when an unknown printer
                             took a galley of type and scrambled it to make a type specimen book.
@@ -30,7 +30,7 @@ export default class Responsive extends Component {
                         <div className="avatar"></div>
                         <h3>Jon Doe</h3>
                         <h4>Co Founder</h4>
-                        <p class="testimonial">
+                        <p className="testimonial">
                             Lorem Ipsum has been the industry's standard 
                             dummy text ever since the 1500s, when an unknown printer
                             took a galley of type and scrambled it to make a type specimen book.
@@ -38,7 +38,7 @@ export default class Responsive extends Component {
                     </div>
                 </div>
                 <div>
-                    <ul class="brands">
+                    <ul className="brands">
                         <li>
                             <img src="/assets/images/section5-logo1.png" alt="brand-logo"/>
                         </li>
