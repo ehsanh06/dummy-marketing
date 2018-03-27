@@ -8,7 +8,7 @@ export default class Design extends Component {
                 <div className="container">
                     <div className="text-container">
                         <h4>New Design</h4>
-                        <h2>There is no other platforms for you as like <span class="eplisis">....</span></h2>
+                        <h2>There is no other platforms for you as like <span className="eplisis">....</span></h2>
 
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
