@@ -23,6 +23,7 @@ export default class App extends Component {
           <Responsive />
           <Founders />
           <Showcase />
+          <Trial />
         </main>
         <Footer />
       </div>
