@@ -7,7 +7,7 @@ export default class Trial extends Component {
             <section className="trial">
                 <div>
                     <h4>New features</h4>
-                    <h3>Over 1000 designers are using ...</h3>
+                    <h2>Over 1000 designers are using ...</h2>
                     <span>30 days free trial for all.</span>
                 </div>
                 <form action="POST">
