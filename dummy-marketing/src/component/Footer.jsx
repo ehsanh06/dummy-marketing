@@ -6,9 +6,9 @@ export default class Footer extends Component {
         return (
             <footer>
                 <div>
-                    <img src="" alt="Start Ex" />
-                    <p></p>
-                    <p></p>
+                    <img src="/assets/images/section7-logo.png" alt="Start Ex" />
+                    <p>123 Some Address Street</p>
+                    <p>AB1 1234</p>
                 </div>
                 <div>
                     <h4>Support</h4>
@@ -29,8 +29,8 @@ export default class Footer extends Component {
                 <div>
                     <h4>Get Newsletter</h4>
                     <form action="POST">
-                        <input type="text" required />
-                        <button type="submit"></button>
+                        <input type="text" placeholder="EMAIL" required />
+                        <input type="submit" />
                     </form>
                     <ul>
                         <li><span></span></li>
@@ -39,6 +39,7 @@ export default class Footer extends Component {
                         <li><span></span></li>
                     </ul>
                 </div>
+                <img src="/assets/images/decorationBox.png" alt="Accent" />
             </footer>
         );
     }
