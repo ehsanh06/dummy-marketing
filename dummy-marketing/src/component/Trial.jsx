@@ -11,13 +11,13 @@ export default class Trial extends Component {
                     <span>30 days free trial for all.</span>
                 </div>
                 <form action="POST">
-                    <input type="text" className="fullname" required/>
-                    <input type="email" className="email" required/>
-                    <input type="password" className="email" required/>
+                    <input type="text" placeholder="Full Name" className="fullname" required/>
+                    <input type="email" placeholder="Your Email" className="email" required/>
+                    <input type="password" placeholder="Password" className="email" required/>
 
                     <button type="submit">Try now!</button>
                 </form>
-                <small>By Signing up you agree to our <a id="terms"><span>terms &amp; Services.</span></a></small>
+                <span>By Signing up you agree to our <a id="terms"><span>terms &amp; Services.</span></a></span>
             </section>
         );
     }
