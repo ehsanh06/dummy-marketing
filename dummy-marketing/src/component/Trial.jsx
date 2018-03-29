@@ -17,7 +17,7 @@ export default class Trial extends Component {
 
                     <button type="submit">Try now!</button>
                 </form>
-                <small>By Signing up you agree to our <a href="#" id="terms"><span>terms &amp; Services.</span></a></small>
+                <small>By Signing up you agree to our <a id="terms"><span>terms &amp; Services.</span></a></small>
             </section>
         );
     }
