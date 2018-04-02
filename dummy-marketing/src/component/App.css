@@ -82,9 +82,9 @@ span.elipsis {
     color: #ec5b5b;
 }
 
-/* 
+/*---------------------- 
     Header 
-*/
+------------------------*/
 header.landing {
     width: 100%;
     background-image: url('/assets/images/header-photo.jpg');
@@ -128,9 +128,39 @@ header p {
     font-size: small;
 }
 
-/* 
+/* Media Queries */
+@media only screen and (max-width: 425px) {
+
+    header {
+        height: 340px;
+    }
+
+    header h1 {
+        font-size: 2.6em;
+    }
+
+    header.landing {
+        padding: 7em 0;
+    }
+
+    header #heading-container,
+    header #play-button-container,
+    header div:last-child {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    header h1 {
+        font-size: 2.35em;
+    }
+}
+
+/*----------------- 
     Design
-*/
+-------------------*/
 section.design div.container {
     display: grid;
     grid-template-columns: 2fr 1fr;
