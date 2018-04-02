@@ -193,6 +193,41 @@ section.design div#accent-container {
     height: auto;
 }
 
+@media screen and (max-width: 768px) {
+    section.design {
+        background: lightgray;
+    }
+
+    section.design div.container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.design div.container div.text-container {
+        padding: 2em;
+        width: 100%;
+    }
+
+    section.design h2 {
+        font-size: 1.8em;
+    }
+    
+    section.design p {
+        padding: 1em 0;
+    }
+
+    section.design div#accent-container {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 2;
+        transform: scaleY(-1);
+        position: relative;
+        height: 325px;
+
+    }
+}
+
 /* 
     Features 
 */
