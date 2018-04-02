@@ -239,9 +239,10 @@ section.design div#accent-container {
         display: none;
     }
 }
-/* 
+
+/*-----------------
     Features 
-*/
+-------------------*/
 section.features {
     width: 100%;
     background-image: url('/assets/images/section3-photoBackground.jpg');
@@ -263,15 +264,25 @@ section.features > div:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 1em 0;
-
 }
 
 section.features > div:nth-child(2) div {
     padding: 2em;
 }
 
-section.features > div:nth-child(2) div > p{
+section.features > div:nth-child(2) div > p {
     line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+    section.features {
+        background-position: 10px 10px;
+        background-size: cover;
+    }
+    
+    section.features > div:first-child {
+        margin: 5% auto;
+    }
 }
 
 /* 
