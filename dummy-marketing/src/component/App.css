@@ -188,9 +188,8 @@ section.design div#accent-container {
     display: block;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    height: auto;
+    background-position: 0px;
+    background-size: cover;
 }
 
 @media screen and (max-width: 768px) {
