@@ -227,7 +227,19 @@ section.design div#accent-container {
 
     }
 }
-
+@media screen and (max-width: 425px) {
+    section.design div.container {
+        display: block;
+    }
+    section.design div.container div.text-container {
+        width: 90%;
+        padding: 1em;
+        margin: 0 auto;
+    }
+    section.design div#accent-container {
+        display: none;
+    }
+}
 /* 
     Features 
 */
