@@ -285,6 +285,60 @@ section.features > div:nth-child(2) div > p {
     }
 }
 
+@media screen and (max-width: 768px) {
+    section.features {
+        background-position: -130px;
+    }
+
+    section.features > div:nth-child(2) {
+        padding: 1em;
+    }
+
+    section.features > div:nth-child(2) div {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    section.features h3 {
+        font-size: 1.25em;
+        padding: 1em 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    section.features {
+        background-position: 80% 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        height: 1080px;
+    }
+
+    section.features > div:first-child {
+        margin: 0 auto;
+        width: 90%;
+        padding: 2em 0;
+    }
+
+    section.features > div:nth-child(2) {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    section.features > div:nth-child(2) div {
+        width: 85%;
+    }
+
+    h2 { font-size: 1.8em; }
+
+}
+
+@media screen and (max-width: 320px) {
+    section.features {
+        height: 1100px;
+    }
+}
+
+
 /* 
     Responsive 
 */
