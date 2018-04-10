@@ -276,7 +276,7 @@ section.features > div:nth-child(2) div > p {
 
 @media screen and (max-width: 1024px) {
     section.features {
-        background-position: 10px 10px;
+        background-position: 0px;
         background-size: cover;
     }
     
@@ -339,9 +339,9 @@ section.features > div:nth-child(2) div > p {
 }
 
 
-/* 
+/*-----------------
     Responsive 
-*/
+-------------------*/
 section.responsive {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -380,6 +380,71 @@ section.responsive div:nth-of-type(2) {
 
 section.responsive div:nth-of-type(2) p {
     padding: 1em 0;
+}
+
+@media screen and (max-width: 1024px) {
+    section.responsive div:nth-of-type(2) {
+        width: 90%;
+        margin: 0% auto;
+        padding: 3em 0;
+    }
+
+    section.responsive>img {
+        width: 45%;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.8em;
+    }
+
+    section.responsive {
+        grid-template-columns: none;    
+    }
+
+    section.responsive div:first-child {
+        display: none;
+    }
+
+    section.responsive img {
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        z-index: -1;
+    }
+
+    section.responsive div:nth-of-type(2) {
+        width: 65%;
+        margin: 0% auto;
+        padding: 5em 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    section.responsive {
+        height: 450px;
+    }
+
+    section.responsive img { 
+        top: 270px;
+    }
+
+    section.responsive div:nth-of-type(2) {
+        width: 85%;
+        padding: 2em 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    section.responsive img { 
+            top: 300px;
+    }
 }
 
 /* 
