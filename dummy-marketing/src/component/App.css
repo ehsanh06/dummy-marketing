@@ -553,9 +553,9 @@ section.founders > div:nth-of-type(2) > ul > li {
 } 
 
 
-/* 
+/* -----------------
     Showcase
-*/
+----------------- */
 section.showcase > div {
     padding: 2em 0;
     text-align: center;
@@ -569,6 +569,13 @@ section.showcase > img {
     display: block;
     max-width: 100%;
     margin: 0 auto;
+}
+
+
+@media screen and (max-width: 425px) {
+    section.showcase > div {
+        width: 80%;
+    }
 }
 /*
     Trial
