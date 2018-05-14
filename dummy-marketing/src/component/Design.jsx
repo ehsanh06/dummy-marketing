@@ -8,22 +8,26 @@ export default class Design extends Component {
                 <div className="container">
                     <div className="text-container">
                         <h4>New Design</h4>
-                        <h2>There is no other platforms for you as like <span className="eplisis">....</span></h2>
+                        <h2>There is no other platforms for you as like <span className="elipsis">....</span></h2>
 
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                             took a galley of type and scrambled it to make a type specimen book. It has survived not
-                             only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                    </p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et ornare nulla. Pellentesque nec turpis vel turpis eleifend convallis. 
+                            Etiam ac commodo urna. Aenean dapibus imperdiet pellentesque. Nullam quis lacus eleifend, consequat orci eleifend, vehicula velit. 
+                            Etiam ultrices enim et diam dignissim dapibus. Morbi ipsum ipsum, malesuada nec diam in, suscipit condimentum ipsum. Nullam interdum ante dolor, 
+                            porttitor fermentum tortor feugiat vel. Morbi non sapien nisl. Maecenas id vehicula erat. Donec eros nisi, maximus in ornare nec, 
+                            efficitur eu ante.
+                        </p>
                         <p>
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-                    </p>
+                            Mauris gravida fermentum erat vel luctus. Nulla ut dui vestibulum, pulvinar massa a, tempus magna. Curabitur semper elementum odio. 
+                            Nulla hendrerit neque vitae sem elementum, sed porta urna faucibus. Nullam libero turpis, volutpat mollis arcu id, efficitur ultrices erat. 
+                            Etiam bibendum id nunc in pulvinar. Sed posuere aliquet mattis. Pellentesque tincidunt cursus suscipit. Quisque dapibus ultrices ipsum, et ornare enim. 
+                            Donec non ullamcorper libero. Morbi vitae tristique est. Ut cursus accumsan mi. Suspendisse ut euismod risus. Praesent eu felis dolor. 
+                            Quisque enim lectus, cursus eu consequat ut, vehicula in dui.
+                        </p>
                     </div>
 
-                    <div id="accent-container">
-                    {/* Background image  */}
+                    <div className="accent-container">
+                        {/* Background image  */}
                     </div>
                 </div>
             </section>

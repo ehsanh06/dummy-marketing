@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 
 export default class Header extends Component {
 
+    scrollToElement = () => {
+            let elmnt = document.getElementById("trial");
+            elmnt.scrollIntoView({ behavior: 'smooth' });
+    }
+    
+
     render() {
         return (
             <header className="landing">
@@ -12,7 +18,7 @@ export default class Header extends Component {
                     <img src="./assets/images/header-icon-play.png" alt="Play"/>
                 </div>
                 <div>
-                    <button type="button">Try Now</button>
+                    <button type="button" onClick={this.scrollToElement.bind(this)}>Try Now</button>
                     <p>&#42; No need to add card details</p>
                 </div>
             </header>
