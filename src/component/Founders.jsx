@@ -35,19 +35,19 @@ Etiam ac commodo urna.
                     </div>
                     <ul className="brands">
                         <li>
-                            <img src="/assets/images/section5-logo1.png" alt="brand-logo" />
+                            <img src="./assets/images/section5-logo1.png" alt="brand-logo" />
                         </li>
                         <li>
-                            <img src="/assets/images/section5-logo2.png" alt="brand-logo" />
+                            <img src="./assets/images/section5-logo2.png" alt="brand-logo" />
                         </li>
                         <li>
-                            <img src="/assets/images/section5-logo3.png" alt="brand-logo" />
+                            <img src="./assets/images/section5-logo3.png" alt="brand-logo" />
                         </li>
                         <li>
-                            <img src="/assets/images/section5-logo4.png" alt="brand-logo" />
+                            <img src="./assets/images/section5-logo4.png" alt="brand-logo" />
                         </li>
                         <li>
-                            <img src="/assets/images/section5-logo5.png" alt="brand-logo" />
+                            <img src="./assets/images/section5-logo5.png" alt="brand-logo" />
                         </li>
                     </ul>
                 </div>

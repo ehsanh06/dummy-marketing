@@ -12,7 +12,7 @@ export default class Features extends Component {
                     </div>
                     <div>
                         <div>
-                            <img src="/assets/images/section3-icon1.png" alt="Postcard" />
+                            <img src="./assets/images/section3-icon1.png" alt="Postcard" />
                             <h3>Some awesome features</h3>
                             <p>
                                 Lorem Ipsum has been the industry's standard
@@ -21,7 +21,7 @@ export default class Features extends Component {
                         </p>
                         </div>
                         <div>
-                            <img src="/assets/images/section3-icon2.png" alt="Travel" />
+                            <img src="./assets/images/section3-icon2.png" alt="Travel" />
                             <h3>Some awesome features</h3>
                             <p>
                                 Lorem Ipsum has been the industry's standard
@@ -30,7 +30,7 @@ export default class Features extends Component {
                         </p>
                         </div>
                         <div>
-                            <img src="/assets/images/section3-icon3.png" alt="Lightbulb" />
+                            <img src="./assets/images/section3-icon3.png" alt="Lightbulb" />
                             <h3>Some awesome features</h3>
                             <p>
                                 Lorem Ipsum has been the industry's standard

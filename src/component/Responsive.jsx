@@ -8,7 +8,7 @@ export default class Responsive extends Component {
 
             <div className="container">
                 <div>
-                    <img src="/assets/images/section4-macbook.png" alt="Macbook"/>
+                    <img src="./assets/images/section4-macbook.png" alt="Macbook"/>
                 </div>
                 
                 

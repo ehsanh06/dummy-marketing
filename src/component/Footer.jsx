@@ -7,7 +7,7 @@ export default class Footer extends Component {
             <footer>
                 <div className="container">
                     <div>
-                        <img src="/assets/images/section7-logo.png" alt="Start Ex" />
+                        <img src="./assets/images/section7-logo.png" alt="Start Ex" />
                         <p>123 Some Address Street</p>
                         <p>AB1 1234</p>
                     </div>

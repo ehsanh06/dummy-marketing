@@ -17,7 +17,7 @@ export default class Showcase extends Component {
                             efficitur eu ante.                            
                         </p>
                     </div>
-                    <img src="/assets/images/section6-browser.png" alt="showcase"/>
+                    <img src="./assets/images/section6-browser.png" alt="showcase"/>
                 </div>
             </section>
         );
