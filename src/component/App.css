@@ -34,7 +34,7 @@ header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    background-image: url('/assets/images/header-photo.jpg');
+    background-image: url('../../assets/images/header-photo.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -253,12 +253,12 @@ section.design .container {
 
 .accent-container {
     display: block;
-    background: #ECECEC url(/assets/images/decorationBox.png) no-repeat bottom right;
+    background: #ECECEC url(../../assets/images/decorationBox.png) no-repeat bottom right;
     background-size: 100%;
 }
 
 section.features {
-    background: url(/assets/images/section3-photoBackground.jpg) no-repeat 0% 30%;
+    background: url(../../assets/images/section3-photoBackground.jpg) no-repeat 0% 30%;
     background-size: cover;
     text-align: center;
 }
@@ -301,7 +301,7 @@ section.responsive .container {
 section.responsive .container div:first-child {
     padding: 6em 0;
     display: block;
-    background: #ECECEC url(/assets/images/decorationBox.png) no-repeat 100%;
+    background: #ECECEC url(../../assets/images/decorationBox.png) no-repeat 100%;
     background-size: 100%;
 }
 
@@ -323,7 +323,7 @@ section.responsive .container div:nth-child(2) > * {
 }
 
 section.founders {
-    background: url(/assets/images/section5-background.jpg) no-repeat;
+    background: url(../../assets/images/section5-background.jpg) no-repeat;
     background-size: cover;
     color: #ffffffca;
     text-align: center;
@@ -474,12 +474,12 @@ footer .container div:last-child form ::placeholder {
 footer button {
     padding: 1.8em;
     display: block;
-    background: #FF6D6C url(/assets/images/section7-buttonIcon.png) no-repeat 40% 50%;
+    background: #FF6D6C url(../../assets/images/section7-buttonIcon.png) no-repeat 40% 50%;
     background-size: 60%;
 }
 
 footer button:hover {
-    background: #ec5b5bc7 url(/assets/images/section7-buttonIcon.png) no-repeat 40% 50%;
+    background: #ec5b5bc7 url(../../assets/images/section7-buttonIcon.png) no-repeat 40% 50%;
     background-size: 40%;
     cursor: pointer;
     transition: all 0.5s linear;
@@ -508,7 +508,7 @@ footer button:hover {
 
     section.design .container .text-container {
         width: initial;
-        background: url(/assets/images/decorationBox.png) no-repeat right top;
+        background: url(../../assets/images/decorationBox.png) no-repeat right top;
         padding: 4em;
     }
     section.design .container .accent-container {
@@ -699,7 +699,7 @@ footer button:hover {
     footer button {
         padding: 1.8em;
         display: block;
-        background: #FF6D6B url(/assets/images/section7-buttonIcon.png) no-repeat 45% 50%;
+        background: #FF6D6B url(../../assets/images/section7-buttonIcon.png) no-repeat 45% 50%;
         background-size: 30%;
         width: 30%;
     }
@@ -734,7 +734,7 @@ footer button:hover {
 
     /* Features */
     section.features {
-        background: url(/assets/images/section3-photoBackground.jpg) no-repeat center top;
+        background: url(../../assets/images/section3-photoBackground.jpg) no-repeat center top;
         background-size: cover;
     }
 
